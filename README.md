@@ -48,7 +48,7 @@ co-visitation特征
 
 1.ProNE基于图的user-item相似度特征
 
-2.BPRMF，ALSMF,LMF基于矩阵分解的user-item相似度特征
+2.BPRMF，ALSMF，LMF基于矩阵分解的user-item相似度特征
 
 3.许多item特征，例如时间趋势类特征、物品点击购买率类特征等
 
