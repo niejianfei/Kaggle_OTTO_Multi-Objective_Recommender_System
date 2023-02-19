@@ -357,7 +357,6 @@ if __name__ == '__main__':
     item_features(input_path, output_path)
     add_item_features(input_path, input_path2, output_path1)
 
-
     input_path3 = f'/home/niejianfei/otto/{stage}/data/train_parquet/*'
     output_path2 = f'/home/niejianfei/otto/{stage}/preprocess/click_cart_item_features.pqt'
     output_path3 = f'/home/niejianfei/otto/{stage}/preprocess/click_order_item_features.pqt'

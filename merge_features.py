@@ -41,4 +41,6 @@ if __name__ == '__main__':
     user_item_features(stage, candidate_type)
     similarity_features(stage, candidate_type, 0, 8)
     co_visitation_features(stage, candidate_type, 0, 8)
-    add_labels(candidate_type)
+    # 给CV加标签
+    if IS_TRAIN:
+        add_labels(candidate_type)

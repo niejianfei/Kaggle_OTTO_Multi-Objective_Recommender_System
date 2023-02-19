@@ -2,10 +2,10 @@
 # 1.基于历史序列召回    全部aids
 # 2.基于co—visitation召回(I2I)  100aids
 # 3.基于规则召回
-#   点击最多，重复点击最多
-#   加购最多，重复加购最多
-#   购买最多，重复购买最多
-#   热门商品，综合指数最高
+#   点击最多
+#   加购最多
+#   购买最多
+#   热门商品
 # 4.基于embedding召回
 #   deepwalk last week(I2I)     80aids
 #   deepwalk last month(I2I)     80aids
