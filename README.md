@@ -34,6 +34,14 @@ similarity特征（包括deepwalk,ProNE等相似度特征）
 
 co-visitation特征
 
+训练策略具体如下：
+
+分别用xgboost训练click/cart/order模型
+
+用户click/cart/order的样本为正样本，其余candidates为负样本
+
+训练模型时选用所有正样本，负样本选取正样本数量的30倍
+
 ## 模型提升历程
 
 1.利用手工规则recall@20后LB分数为0.577
